@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+    padding-left: 15px;
+}
+
+sup {
+    color: var(--01-bab-3, #01BAB3);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* HEADER */
+
+header {
+    border: 1px #CCC solid;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #FFF;
+}
+
+.container {
+    max-width: 1187px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.links a {
+    padding: 8px 0;
+}
+
+.nav-items {
+    margin-left: 51px;
+}
+
+.nav-items-3 {
+    margin-left: 51px;
+    margin-right: 7px;
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.nav-items-btn {
+    list-style: none;
+}
+
+.nav-btn {
+    align-items: center;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 2px solid #d9d9d9;
+    border-radius: 4px;
+    margin-left: 24px;
+}
+
+/* HEADER END */
+
+/* MAIN */
+main {
+    background-color: #F4F8FA;
+}
+
+#login {
+    padding-top: 60px;
+    /* background-color: red; */
+}
+
+.container-login {
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.container-list {
+    max-width: 416px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: blue; */
+}
+
+.img-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.container-list h1 {
+    padding-top: 24px;
+    font-family: Segoe UI;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 29px;
+}
+
+.container-list p {
+    padding-top: 16px;
+    text-align: center;
+    color: #444150;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.container-list a {
+    color: var(--01-bab-3, #01BAB3);
+    font-family: Segoe UI;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+/* FIRST-ROW */
+
+.first-row input {
+    width: 410px;
+    height: 48px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444150;
+}
+
+.email label {
+    padding-bottom: 8px;
+    padding-top: 39px;
+    display: block;
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* SECOND ROW */
+
+.second-row input {
+    width: 410px;
+    height: 48px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444150;
+}
+
+.password label {
+    padding-bottom: 8px;
+    padding-top: 24px;
+    display: block;
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.password {
+    position: relative;
+}
+
+.second-row input[name='password'] {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.password i {
+    position: absolute;
+    font-size: 25px;
+    top: 75px;
+    right: 20px;
+}
+
+/* THIRD-ROW */
+
+#third-row {
+    padding-bottom: 40px;
+    padding-top: 87px;
+}
+
+.continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    gap: 16px;
+    border: 1px solid none;
+    background-color: #01BAB3;
+    padding: 12px 0;
+    border-radius: 10px;
+}
+
+.continue button {
+    color: #FFF;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: Segoe UI;
+    border: 1px solid #01BAB3;
+    cursor: pointer;
+}
+
+.last-p {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 261px;
+}

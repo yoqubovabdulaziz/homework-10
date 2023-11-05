@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson | 10</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header>
+        <nav class="container contnainer-header">
+            <div class="links">
+                <a href="#">
+                    <img src="images/logo-by-trend.svg" alt="logo-by-trend">
+                </a>
+                <ul class="nav-row">
+                    <li class="nav-items"><a href="#" class="nav-links">Services</a></li>
+                    <li class="nav-items"><a href="#" class="nav-links">About</a></li>
+                    <li class="nav-items-3"><a href="#" class="nav-links">Contacts</a></li>
+                    <li class="nav-items-btn"><button class="nav-btn">Log in</button></li>
+                    <li class="nav-items-btn"><button class="nav-btn">Open an account</button></li>
+                    <li class="nav-items-btn"><button class="nav-btn">EN</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+        <section id="first-step">
+            <div class="container-first-step">
+                <div class="container-list">
+                    <div class="img-logo">
+                        <img src="images/logo-by-trend.svg" alt="logo-by-trend">
+                    </div>
+                    <h1>Welcome to ByTrend!</h1>
+                    <p>Already have an account? <a href="pages/login.html">Log in</a></p>
+                    <form action="./pages/registor.html" autocomplete="off">
+                        <!-- FIRST -->
+                        <div id="first-row">
+                            <div id="first-name">
+                                <label for="first-name">First-name<sup>*</sup></label>
+                                <input type="text" placeholder="Your First name" required>
+                            </div>
+                            <div id="last-name">
+                                <label for="last-name">Last-name<sup>*</sup></label>
+                                <input type="text" placeholder="Your surename" required name="last-name">
+                            </div>
+                        </div>
+
+                        <!-- SECOND -->
+                        <div id="second-row">
+                            <div id="birth-date">
+                                <label for="birth-date">Birth-date<sup>*</sup></label>
+                                <input  type="date" placeholder="06.12.1992" required name="birth-date">
+                            </div>
+                        </div>
+                        
+                        <!-- THIRD -->
+                        <div id="third-row">
+                            <h3>Gender<sup>*</sup></h3>
+                            <div class="gender">
+                                <div class="female">
+                                    <input id="gender-female" type="radio" name="gender" required>
+                                    <label for="gender-female">Female</label>
+                                </div>
+                                <div class="male">
+                                    <input id="gender-male" type="radio" name="gender" required checked>
+                                    <label for="gender-male">Male</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FIFTH -->
+                        <div id="fifth-row">
+                            <div class="skype">
+                                <label for="">Skype</label>
+                                <input type="text" placeholder="Your login Skype" name="skype" required>
+                            </div>
+                        </div>
+
+                        <!-- SIXTH -->
+                        <div id="sixth-row">
+                            <div class="promo">
+                                <label for="">Promo</label>
+                                <input type="text" placeholder="Your promo" name="promo" required>
+                            </div>
+                        </div>
+
+                        <!-- SEVENTH -->
+                        <div id="seventh-row">
+                            <div class="continue">
+                                <div class="continue-btn"></div>
+                                <button type="submit">Continue</button>
+                                <img src="images/Arrow Right 1 - 24px.svg" alt="arrow-right">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <p class="last-paragraph">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+        </section>
+    </main>
+</body>
+</html>

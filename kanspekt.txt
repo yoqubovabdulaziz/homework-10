@@ -1,0 +1,75 @@
+INPUT TYPES
+1-text (ichiga xar qanday text yozsa boladi)
+
+2-email (ichiga faqat kuchukchasi bolgan (@)gmaillar yozish kerak aks holda xato malumot yozildi degan habar chiqadi)
+
+3-password (bunga faqat parol yoziladi va yozilgan text korinmaydi nuqta korinishida chiadi)
+
+4-number (faqat raqam yozish uchun moljallangan yani sozlar va harflar yozib bolmaydi faqat raqam yoziladi)
+
+5-range (malum bir miqdor kichik dorirachani chap yoki o'ng ga surish orqali tanlaymiz)
+6-tel (faqat telefon nomer yozish uchun)
+
+7-week (haftalarni tanlash uchun)
+
+8-color (xoxlagan rang ni tanlash uchun)
+
+9-file (filelar qoyish uchun misol uchun kopincha rasmlar qoyish uchun)
+
+10-date (sanani belgilash uchun)
+
+11-time (vaqtni belgilash uchun)
+
+12-url (har qanday url ni qoyib qoysa boladi)
+
+submit (barcha yig'ilgan malumotlarni kiritish yoki yuborish desak boladi)
+
+button (submit bilan vazifasi birxil)
+
+shu ikkitasini type doimo submit bolgan holda yuqorida yozilgan gaplarga amal qiladi) submit type=submit, button type=submit
+
+shu yuqorida yozilgan barcha kod lar <form><form/> tagini ichida yozilishi kerak aks holda muammo boladi
+
+
+
+INPUT ATTRIBUTES
+1-placeholder (aniq malumot kiritishdan oldin korinib turadigan text, foydalanuvchi malumot kiritganda yoqolib ketadi)
+
+2-required (input tag ga required bersak osha maydonga malumot kiritmagan holda keyingi sahifaga ota olmaydi yoki malumotlarini bazaga yubora olmaydi)
+
+3-name (backend ga yuborilganda backend chi yuborilgan malumot qanday malumot ekanligini bilishi uchun name beriladi)
+
+4-disabled (agar tag ga disabled berilsa osha joy prosta korinishi turadi lekin bosganda ishlamydi)
+
+5-oninvalid (buning qiymati this.setCustomValidity('something!') buning vazifasi required berilgan joyni toldirmaganda shu joyga misol uchun "ismingizni kiritng")
+
+6-patter (^\+998(33|7(0|1|7)|88|9\d{1})(\d{7})$) bu ozbekiston telefon raqamini notogri yozilmasligi taminlab beradi agar foydalanuvchi notogri raqam kiritsa xato deydi)
+
+
+
+PSEUDO-ELEMENTS 
+1-placeholder (shunga berilad faqat shu elementda ishlaydi)
+
+
+
+LABEL
+
+(berilgan elementning ustida qanday bo'limligini bildirib turuvchi tag bunga har hil stil bersa boladi
+
+
+RADIO AND
+1-radio(checked)    (misol uchun gender tanlashda vaho kazolarda ishlatiladi agar ikta radio bersak shuni bittasini tanlamoqchi boladigan bolsak 2 tasiga ham birxil name berib qoyilsa bittasi tanlanadi)
+
+
+SELECT
+
+1-select (3-4 hil variant beriladi misol uchun 5 ta davlat berilgan shuni bittasini tanlash uchun select elementidan foydalanamiz)
+
+
+Autocomplete (malumot kiritayotganda google ozidan ozi toldirib qoymasligi uchun va tafsiya qilmasligi uchun ishlatiladi)
+
+
+PASSWORD SHOW-HIDE
+
+eng etibor berilishi kerak bolgan narsa bu inputning id si password bolishi kerak va i tag ning id si toggle-password bolishi kerak)
+va js ga ulangan bolishi kerak js ning kerakli kodlari bor)
